@@ -1,0 +1,27 @@
+{
+  "name": "first_express_project",
+  "version": "1.0.0",
+  "description": "First time studying express and how it works and what it is",
+  "keywords": [
+    "Aryan"
+  ],
+  "homepage": "https://github.com/AryanYadav1024/BackEnd#readme",
+  "bugs": {
+    "url": "https://github.com/AryanYadav1024/BackEnd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryanYadav1024/BackEnd.git"
+  },
+  "license": "ISC",
+  "author": "Aryan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
