@@ -1,0 +1,24 @@
+{
+  "name": "01first_backend",
+  "version": "1.0.0",
+  "description": "A basic app to deploy",
+  "keywords": [
+    "node",
+    "aryan"
+  ],
+  "homepage": "https://github.com/AryanYadav1024/BackEnd#readme",
+  "bugs": {
+    "url": "https://github.com/AryanYadav1024/BackEnd/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryanYadav1024/BackEnd.git"
+  },
+  "license": "ISC",
+  "author": "aryan yadav",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
