@@ -8,6 +8,16 @@ app.get('/',(req,res)=>{
     res.send('Server is ready')
 })
 
+// so we have two methods to serve the frontend to the users/clients
+// one is frontend is running of different server and that is provided to user 
+// or backend itself provide the frontend by using middlware app.use(express.static('dist'))
+
+// sometimes what people do is create a build for react project and they serve it directly to the backend deployment
+// how they create a build(production distribution) then place it in backend deployment and express server the static frontend to browser itself
+// app.use(express.static('dist'))
+// dist also contains -> react runtime 
+// this helps solve server cost of running frontend differently 
+
 // get a list of 5 jokes
 // backend api endpoint frontend can do fetch or api request on this path 
 // then we will send response accordingly 
