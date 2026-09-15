@@ -1,7 +1,7 @@
 {
-  "name": "06advancedbackend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "An advanced backend project",
+  "description": "An advanced backend project ",
   "license": "ISC",
   "author": "Aryan Yadav",
   "type": "module",
