@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const medicarRecordSchema = new mongoose(
+const medicarRecordSchema = new mongoose.Schema(
     {
 
     }

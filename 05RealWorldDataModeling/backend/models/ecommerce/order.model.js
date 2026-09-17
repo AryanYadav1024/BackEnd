@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 // mini models
-const orderItemSchema = new mongoose(
+const orderItemSchema = new mongoose.Schema(
     {
         productId: {
             type: mongoose.Schema.Types.ObjectId,
@@ -13,7 +13,7 @@ const orderItemSchema = new mongoose(
     }
 )
 
-const orderSchema = new mongoose(
+const orderSchema = new mongoose.Schema(
     {
         orderPrice: {
             type: Number,
