@@ -7,7 +7,6 @@
 // asyncHandler what it does is take a function as an argument and wraps it as async task 
 // and returns it to wherever we want 
 
-    
 const asyncHandler = (fn) => async(req,res,next) =>{
     try {
         await fn(req,res,next)
