@@ -228,4 +228,9 @@ app.use(cookieParser())
 // so that another file can import it and start
 // the server / attach routes.
 
+
+// import routes
+import { registerUser } from './routes/user.routes.js';
+
+
 export default app
